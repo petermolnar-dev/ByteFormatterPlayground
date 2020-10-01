@@ -14,6 +14,8 @@
 		5A9075DB25264C1E002B737C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9075DA25264C1E002B737C /* Assets.xcassets */; };
 		5A9075DE25264C1E002B737C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9075DC25264C1E002B737C /* LaunchScreen.storyboard */; };
 		5A9075E925264C1E002B737C /* ByteFormatterPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9075E825264C1E002B737C /* ByteFormatterPlaygroundTests.swift */; };
+		5A9075F425264C40002B737C /* Int+normaliseFromByte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9075F325264C40002B737C /* Int+normaliseFromByte.swift */; };
+		5A9075F625264C54002B737C /* ByteFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9075F525264C54002B737C /* ByteFormatterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		5A9075E425264C1E002B737C /* ByteFormatterPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ByteFormatterPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9075E825264C1E002B737C /* ByteFormatterPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByteFormatterPlaygroundTests.swift; sourceTree = "<group>"; };
 		5A9075EA25264C1E002B737C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9075F325264C40002B737C /* Int+normaliseFromByte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+normaliseFromByte.swift"; sourceTree = "<group>"; };
+		5A9075F525264C54002B737C /* ByteFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ByteFormatterTests.swift; path = ByteFormatterPlaygroundTests/ByteFormatterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		5A9075C525264C1B002B737C = {
 			isa = PBXGroup;
 			children = (
+				5A9075F325264C40002B737C /* Int+normaliseFromByte.swift */,
+				5A9075F525264C54002B737C /* ByteFormatterTests.swift */,
 				5A9075D025264C1C002B737C /* ByteFormatterPlayground */,
 				5A9075E725264C1E002B737C /* ByteFormatterPlaygroundTests */,
 				5A9075CF25264C1C002B737C /* Products */,
@@ -202,6 +208,7 @@
 			files = (
 				5A9075D625264C1C002B737C /* ViewController.swift in Sources */,
 				5A9075D225264C1C002B737C /* AppDelegate.swift in Sources */,
+				5A9075F425264C40002B737C /* Int+normaliseFromByte.swift in Sources */,
 				5A9075D425264C1C002B737C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9075F625264C54002B737C /* ByteFormatterTests.swift in Sources */,
 				5A9075E925264C1E002B737C /* ByteFormatterPlaygroundTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
